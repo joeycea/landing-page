@@ -8,6 +8,7 @@ body {
 
 .header {
     background-color: #1f2937;
+    height: 425px;
 }
 
 
@@ -19,18 +20,23 @@ body {
 .headerbarleft,
 .headerbarright {
     display: flex;
-    width: 50%;
+    width: 20%;
     justify-content: center;
     align-items: center;
 }
 
+.headerbarright {
+    width: 70%;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}
+
 #header-logo {
     font-size: 24px;
+    font-weight: bolder;
     color: #f9faf8;
-    padding: 0;
     margin: 0;
-
-
+    
 }
 
 #maintext {
@@ -49,6 +55,7 @@ body {
 .content {
     display: flex;
     flex-direction: row;
+    
 }
 
 
@@ -58,8 +65,16 @@ body {
     justify-content: center;
     align-content: center;  
     flex-direction: column;
+    width: 30%;
 
 }
+
+.left-content {
+    display: flex;
+    padding-left: 126px;
+   
+}
+
 
 .headerlink {
     color: #e5e7eb;
@@ -90,6 +105,14 @@ body {
     justify-content: center;
 }
     
+.topbutton {
+    color: white;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+}
     
 
     
@@ -122,3 +145,4 @@ ul {
     display: flex;
     flex-direction: row;
 }
+
