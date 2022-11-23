@@ -26,9 +26,10 @@ body {
 }
 
 .headerbarright {
-    width: 70%;
+    width: 60%;
     justify-content: flex-end;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
+
 }
 
 #header-logo {
@@ -43,6 +44,7 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: -10px;
 }
 
 #subtext {
@@ -65,7 +67,7 @@ body {
     justify-content: center;
     align-content: center;  
     flex-direction: column;
-    width: 30%;
+    width: 25%;
 
 }
 
@@ -82,17 +84,41 @@ body {
 }
 
 
-
+#randominfotitle {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
     
+}
 
 
 .container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 400px;
+    height: 500px;
+    
 }    
 
+.middlepagebuttons {
+    display: flex;
+    padding: 100px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    background: transparent;
+    border-width: thick;
+    margin-top: -8%;
+}
+
+.subtextbuttons {
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    
+}
 
 
 
